@@ -11,7 +11,7 @@ export default function ProfilePanel() {
         <Reveal className="aspect-square lg:aspect-auto bg-foreground overflow-hidden" y={0}>
           <img
             src="/images/misfar.png"
-            alt="Mohammed Misfar Yusaf C, Full Stack Software Engineer"
+            alt="Mohammed Misfar, Full Stack Software Engineer"
             className="w-full h-full object-cover opacity-95 grayscale-15 hover:grayscale-0 transition-all duration-700 hover:scale-[1.02]"
             loading="lazy"
           />
