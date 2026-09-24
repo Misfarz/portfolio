@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F7F5F0;
+  --foreground: #181716;
+  --primary: #B84323;
+  --primary-foreground: #FAF7F2;
+  --muted: #EDE8DF;
+  --muted-foreground: #706B62;
+  --steel: #948E82;
+  --border: #E3DDD2;
+  --card: #FFFFFF;
+}
+
+.dark {
+  --background: #11100F;
+  --foreground: #F5F2EB;
+  --primary: #E05D38;
+  --primary-foreground: #11100F;
+  --muted: #1E1C1A;
+  --muted-foreground: #A49E93;
+  --steel: #7E786E;
+  --border: #262320;
+  --card: #181615;
+}
+
+@theme {
+  --font-display: 'Newsreader', Georgia, serif;
+  --font-mono-label: 'JetBrains Mono', ui-monospace, monospace;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-steel: var(--steel);
+  --color-border: var(--border);
+  --color-card: var(--card);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom editorial utility classes */
+.font-display {
+  font-family: 'Newsreader', Georgia, serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+.font-mono-label {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.section-container {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.section-header {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8125rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--steel);
+  margin-bottom: 3.5rem;
+}
+
+.experience-card {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.experience-card:hover {
+  transform: translateX(4px);
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 20s linear infinite;
+}
+
+/* Print styling for direct CV export */
+@media print {
+  header, footer, nav, button, .no-print {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .section-container {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    border-top: 1px solid #ddd !important;
+  }
+}
