@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "Kerala",
     "Portfolio",
   ],
-  authors: [{ name: "Mohammed Misfar Yusaf C", url: "https://github.com/misfaryusaf" }],
+  authors: [{ name: "Mohammed Misfar Yusaf C", url: "https://github.com/Misfarz" }],
   creator: "Mohammed Misfar Yusaf C",
   openGraph: {
     title: "Mohammed Misfar Yusaf C — Full Stack Software Engineer",

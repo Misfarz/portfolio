@@ -129,7 +129,7 @@ export default function Connect() {
                 <GithubIcon className="w-5 h-5" />
               </span>
               <span className="text-base text-muted-foreground group-hover:text-primary transition-colors duration-200">
-                github.com/misfaryusaf
+                {PERSONAL_INFO.github.replace('https://', '')}
               </span>
               <ArrowUpRight className="w-4 h-4 text-primary opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-auto" />
             </a>

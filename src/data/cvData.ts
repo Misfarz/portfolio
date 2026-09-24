@@ -108,7 +108,7 @@ export const PROJECTS: ProjectItem[] = [
       "Implemented serverless processing using AWS Lambda and SQS for reliable, fault-tolerant background job execution.",
       "Integrated webhook-based result delivery and deployed frontend using Vercel with comprehensive CloudWatch monitoring.",
     ],
-    github: "https://github.com/misfaryusaf",
+    github: "https://github.com/Misfarz",
   },
   {
     id: "yox-ecommerce",
@@ -123,7 +123,7 @@ export const PROJECTS: ProjectItem[] = [
       "Implemented clean architecture with modular backend services, Prisma database models, and optimized RESTful APIs.",
       "Deployed backend services on AWS EC2 with reverse proxy configurations for high production availability.",
     ],
-    github: "https://github.com/misfaryusaf",
+    github: "https://github.com/Misfarz",
   },
   {
     id: "us-video-chat",
@@ -138,7 +138,7 @@ export const PROJECTS: ProjectItem[] = [
       "Developed signaling and real-time state synchronization layer using WebSockets and Socket.IO.",
       "Designed scalable communication flow for low-latency media transmission and graceful packet loss degradation.",
     ],
-    github: "https://github.com/misfaryusaf",
+    github: "https://github.com/Misfarz",
   },
   {
     id: "b2b-procurement",
@@ -154,7 +154,7 @@ export const PROJECTS: ProjectItem[] = [
       "Implemented Redis caching, background job processing, audit logging, and transactional workflows to ensure high data consistency.",
       "Developed analytics dashboards for purchase spending, vendor performance, pending approvals, and procurement activity.",
     ],
-    github: "https://github.com/misfaryusaf",
+    github: "https://github.com/Misfarz",
   },
 ];
 
