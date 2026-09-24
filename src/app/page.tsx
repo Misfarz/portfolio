@@ -9,7 +9,6 @@ import Services from '@/components/Services';
 import Skills from '@/components/Skills';
 import Education from '@/components/Education';
 import ProfilePanel from '@/components/ProfilePanel';
-import FieldNotes from '@/components/FieldNotes';
 import Connect from '@/components/Connect';
 import Footer from '@/components/Footer';
 import CvModal from '@/components/CvModal';
@@ -28,7 +27,6 @@ export default function HomePage() {
         <Skills />
         <Education />
         <ProfilePanel />
-        <FieldNotes />
         <Connect />
       </main>
       <Footer />

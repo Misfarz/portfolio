@@ -10,7 +10,7 @@ export default function ProfilePanel() {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <Reveal className="aspect-square lg:aspect-auto bg-foreground overflow-hidden" y={0}>
           <img
-            src="/images/portrait.jpg"
+            src="/images/misfar.png"
             alt="Mohammed Misfar Yusaf C, Full Stack Software Engineer"
             className="w-full h-full object-cover opacity-95 grayscale-15 hover:grayscale-0 transition-all duration-700 hover:scale-[1.02]"
             loading="lazy"
@@ -27,7 +27,7 @@ export default function ProfilePanel() {
             {PERSONAL_INFO.title}
           </p>
           <p className="text-base md:text-lg text-primary-foreground/95 leading-relaxed max-w-lg mb-8">
-            Misfar is a software engineer specializing in scalable full-stack applications, distributed cloud systems, and real-time communication architectures. He collaborates with engineering teams to engineer resilient RESTful APIs, high-performance web applications, and seamless real-time user experiences.
+            I'm a software engineer specializing in scalable full-stack applications, distributed cloud systems, and real-time communication architectures. He collaborates with engineering teams to engineer resilient RESTful APIs, high-performance web applications, and seamless real-time user experiences.
           </p>
           <div className="flex items-center gap-4">
             <a
